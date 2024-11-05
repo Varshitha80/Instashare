@@ -1,0 +1,63 @@
+
+.storyimage {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.storycon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.storyname {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #262626;
+}
+
+.arrowbackground {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #334155;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  z-index: 10;
+  position: absolute;
+  margin-left: 3px; /* Increased gap */
+  margin-right: 3px; /* Increased gap */
+}
+
+.disabled-arrow {
+  background: #e5e5e5; /* Visually indicate it's disabled */
+  cursor: not-allowed; /* Show disabled cursor */
+}
+
+.nextarrow {
+  right: 1px; /* Adjust right position */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.prevarrow {
+  left: 5px; /* Adjust left position */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.storygap {
+  margin: 0 5px; /* Adjust this to reduce the gap between images */
+}
+.storycon1 {
+  width: 1070px;
+  margin-left: 45px;
+  margin-right: 50px;
+}

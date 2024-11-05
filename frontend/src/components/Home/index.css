@@ -1,0 +1,89 @@
+.homecon1 {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.list {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+.homecon2 {
+  margin-top: 60px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+@media screen and (max-width: 678px) {
+  .homecon2 {
+    margin-top: 20px;
+  }
+}
+.homecon3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+.errorheading {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #262626;
+}
+.errorimage {
+  width: 48px;
+  height: 48px;
+  top: 599px;
+  left: 697px;
+  padding: 4px 2px 6px 2px;
+  gap: 0px;
+}
+.errorbutton {
+  width: Hug (102px) px;
+  height: Hug (32px) px;
+  padding: 8px 24px 8px 24px;
+  gap: 8px;
+  border-radius: 8px;
+  background: #4094ef;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: #ffffff;
+}
+.homecon4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+.nosearchimage {
+  width: 500px;
+  height: 409px;
+  top: 244px;
+  left: 470px;
+  gap: 0px;
+}
+.nosearchheading {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  text-align: center;
+  color: #262626;
+  margin: 0px;
+}
+.nosearchpara {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+  color: #989898;
+  margin: 0px;
+}

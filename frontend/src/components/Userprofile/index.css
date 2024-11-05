@@ -1,0 +1,140 @@
+.usercon1 {
+  display: flex;
+  flex-direction: column;
+  background-color: #fafafa;
+}
+.userlist {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.usercon2 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-top: 30px;
+}
+.usercon3 {
+  display: flex;
+  align-items: center;
+}
+.userprofileimage {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+.usercon4 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.usernameheading {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 32px;
+  text-align: left;
+  color: #262626;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.usernamecounts {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #262626;
+  margin-bottom: 0px;
+  margin-right: 10px;
+}
+.spancounts {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  color: #262626;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+.storyimagebackground {
+  width: 86px;
+  height: 86px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #dbdbdb;
+  background-color: transparent;
+  padding: 4px;
+  margin-right: 40px;
+}
+
+.storyimage {
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: white;
+  padding: 2px;
+}
+.ulstory {
+  margin-top: 30px;
+  margin-left: 0px;
+  padding-bottom: 30px;
+}
+.postsheading {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: left;
+  color: #262626;
+  margin-left: 10px;
+}
+.postsimage {
+  height: 330px;
+  width: 330px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.postslist {
+  display: flex;
+  flex-wrap: wrap;
+}
+.noposts {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 48px;
+  text-align: left;
+  color: #262626;
+  margin-top:0px;
+}
+.usercon5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.usercon6{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top:100px;
+}
+.hr{
+  color:#c6c6c8;
+  width:75vw;
+}
+.usercon7{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -1,0 +1,119 @@
+.headercon1 {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid rgb(220, 220, 220);
+  height: 64px;
+}
+
+.headercon2 {
+  display: flex;
+  align-items: center;
+}
+.headerimage {
+  width: 59px;
+  height: 30px;
+  top: 17px;
+  left: 200px;
+  gap: 0px;
+  margin: 5px;
+}
+.headerlogo {
+  width: 102px;
+  height: 24px;
+  top: 20px;
+  left: 271px;
+  gap: 0px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #262626;
+}
+.headercon3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.headercon4 {
+  margin: 10px;
+  top: 18px;
+  gap: 0px;
+  border: 1px solid #dbdbdb;
+  display: flex;
+  align-items: center;
+}
+.headercon5 {
+  width: 34px;
+  height: 26px;
+  top: 19px;
+  left: 960px;
+  gap: 0px;
+  border-radius: 0px 2px 2px 0px;
+  border: none;
+  background: #dbdbdb;
+}
+.headercon6 {
+  width: 10px;
+  height: 10px;
+  top: 27px;
+  left: 972px;
+  gap: 0px;
+  color: #989898;
+}
+.headercon7 {
+  gap: 0px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+  text-align: left;
+  color: #989898;
+  border: none;
+  outline: none;
+}
+.headerpara1 {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: left;
+  color: #4094ef;
+  margin: 10px;
+}
+.linked {
+  text-decoration: none;
+}
+.headerpara2 {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: left;
+  color: #262626;
+  margin: 10px;
+}
+.logoutbutton {
+  width: Hug (86px) px;
+  height: Hug (32px) px;
+  padding: 8px 24px 8px 24px;
+  gap: 8px;
+  border-radius: 4px;
+  background: #4094ef;
+  border: none;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: #ffffff;
+  margin: 15px;
+}

@@ -1,0 +1,142 @@
+.postcon {
+  background-color: #ffffff;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  width: 1020px;
+  margin-left: 70px;
+  margin-bottom: 20px;
+}
+
+.userprofilecon {
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 26px;
+}
+
+.imagebackground {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid transparent;
+  background: linear-gradient(
+    314.35deg,
+    #e20337 6.03%,
+    #c60188 40.88%,
+    #7700c3 73.23%
+  );
+  background-clip: padding-box;
+}
+
+.userprofile {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: white;
+  padding: 2px;
+}
+
+.username {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #262626;
+  margin-left: 10px;
+}
+
+.postimage {
+  width: 1020px;
+  height: 614px;
+  top: 59px;
+  gap: 0px;
+}
+
+.likecon {
+  display: flex;
+  align-items: center;
+  margin-left: -8px;
+  margin-top: 6px;
+}
+
+.likebutton {
+  background-color: transparent;
+  border: none;
+  margin-right: 5px;
+}
+
+.likescount {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #262626;
+  margin-bottom: 0px;
+}
+
+.caption {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #262626;
+  margin-bottom: 0px;
+}
+
+.commentusername {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  color: #262626;
+  margin-bottom: 0px;
+}
+
+.commentusernamespan {
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+.createdat {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  margin-bottom: 10px;
+  color: #989898;
+}
+.downcon {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 26px;
+}
+.linkedtext {
+  text-decoration: none;
+}
+.followbutton{
+  background-color: #4094ef;
+  border:none;
+  border-radius:5px;
+  color:#ffffff;
+  font-size:12px;
+  margin-right:20px;
+  padding-left:16px;
+  padding-right:16px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.buttoncon1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
