@@ -33,6 +33,10 @@ class Updatepost extends Component {
           this.setState({errormsg:data.message,showerror:true})
         }
       }
+      onclickcancel = () => {
+        const {navigate} = this.props
+        navigate('/my-profile')
+      }
     
       render() {
         const {postimageurl, showerror, errormsg} = this.state
@@ -65,9 +69,14 @@ class Updatepost extends Component {
                 />
               </div>
               {showerror && <p className="errormsg">{errormsg}</p>}
+              <div className='buttoncon'>
               <button type="submit" className="loginbutton">
                 Add Post
               </button>
+              <button type="button" className="cancelbutton" onClick={this.onclickcancel}>
+                Cancel
+              </button>
+              </div>
             </form>
           </div>
         )

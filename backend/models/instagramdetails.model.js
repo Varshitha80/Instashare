@@ -81,6 +81,7 @@ const postsSchema = new mongoose.Schema({
 }, { timestamps: true 
 })
 
+
 const userpostsSchema = new mongoose.Schema({
     image:{type:String}
 })
